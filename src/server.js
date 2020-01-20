@@ -190,7 +190,7 @@ function handleClient (connection) {
       readFile: noop(),
       unlink: noopOk(),
       readdir: noop(),
-      mkdir: noop(),
+      mkdir: noopOk(),
       open: noop(),
       close: noop(),
       rmdir: noop(),
