@@ -189,7 +189,7 @@ function handleClient (connection) {
       writeFile: cameraEvent.bind(null, identifier),
       readFile: noop(),
       unlink: noopOk(),
-      readdir: noop(),
+      readdir: noopOk(),
       mkdir: noopOk(),
       open: noop(),
       close: noop(),
